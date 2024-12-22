@@ -94,4 +94,18 @@ Game Boy games. -->
 		</part>
 	</software>
 
+	<!-- ROM header claims save RAM, but the game doesn't actually use it... -->
+	<software name="smldx">
+		<description>Super Mario Land DX</description>
+		<year>2019</year>
+		<publisher>toruzz</publisher>
+		<info name="version" value="1.0" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="131072">
+				<rom name="smldx.u1" size="131072" crc="6862d7f8" sha1="7d95107c45d4f33649324da2e8a3c8ddb10cda5e" />
+			</dataarea>
+		</part>
+	</software>
+
 </softwarelist>
