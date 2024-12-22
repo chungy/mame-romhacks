@@ -108,4 +108,32 @@ Game Boy games. -->
 		</part>
 	</software>
 
+	<software name="sml2dx">
+		<description>Super Mario Land 2 DX</description>
+		<year>2017</year>
+		<publisher>toruzz</publisher>
+		<info name="version" value="1.8.1" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="sml2dx.u1" size="1048576" crc="f0799017" sha1="b9ed5789c9f481e25a64dad1c5e8e93e4ddc1b80" />
+			</dataarea>
+			<dataarea name="nvram" size="0x2000" />
+		</part>
+	</software>
+
+	<software name="sml2dxj" cloneof="sml2dx">
+		<description>Super Mario Land 2 DX (Japan)</description>
+		<year>2017</year>
+		<publisher>toruzz</publisher>
+		<info name="version" value="1.8.1" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="sml2dxj.u1" size="1048576" crc="c8781a77" sha1="8898a9434222012d5ef72f999c75febac84f1d4f" />
+			</dataarea>
+			<dataarea name="nvram" size="0x2000" />
+		</part>
+	</software>
+
 </softwarelist>
