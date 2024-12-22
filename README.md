@@ -30,6 +30,9 @@ you can source into your environment (eg, in `~/.bashrc`) to provide a
 `mamerh` command that automatically sets hashpath and rompath.  Feel
 free to customize it to your preferences.
 
+For some systems (eg, Game Boy), you may need to copy system ROMs to
+this ROM path as well.
+
 ## Gathering/naming ROMs
 
 Given that these are the same format software list XML files as
