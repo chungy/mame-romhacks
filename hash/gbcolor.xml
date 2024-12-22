@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<!--
+	license:CC0-1.0
+-->
+
+<!-- This is naturally going to contain GBC-exclusive upgrades of old
+     Game Boy games. -->
+
+<softwarelist name="gbcolor" description="Nintendo Game Boy Color ROM hacks">
+
+	<software name="pokeblue_color">
+		<description>Pokémon - Blue Version (Full Color Hack)</description>
+		<year>2017</year>
+		<publisher>Drenn</publisher>
+		<info name="version" value="1.2" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokeblue_color_vanilla.u1" size="1048576" crc="39bd4edc" sha1="8e33922e97eb5508bdc83f92cecb17dac7ef0938" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokeblue_color2" cloneof="pokeblue_color">
+		<description>Pokémon - Blue Version (Full Color Hack, Gen2 sprites)</description>
+		<year>2017</year>
+		<publisher>Drenn</publisher>
+		<info name="version" value="1.2" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokeblue_color_gen2.u1" size="1048576" crc="486e89de" sha1="8f9bcc0cb87a9ec91421d6b9180d2a2696bf7e2b" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokered_color">
+		<description>Pokémon - Red Version (Full Color Hack)</description>
+		<year>2017</year>
+		<publisher>Drenn</publisher>
+		<info name="version" value="1.2" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokered_color_vanilla.u1" size="1048576" crc="3df5c21b" sha1="e1deed63080bc24cad5fba18ecb3184f905d16d4" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokered_color2" cloneof="pokered_color">
+		<description>Pokémon - Red Version (Full Color Hack, Gen2 sprites)</description>
+		<year>2017</year>
+		<publisher>Drenn</publisher>
+		<info name="version" value="1.2" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokered_color_gen2.u1" size="1048576" crc="2846d1b0" sha1="8332059e2715e21ef8d6ae6828d565d681479fb0" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+</softwarelist>
