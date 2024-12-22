@@ -188,6 +188,28 @@ license:CC0-1.0
 		</part>
 	</software>
 
+	<software name="s1blastdx">
+		<description>Sonic 1 Blastless DX</description>
+		<year>2021</year>
+		<publisher>vladikcomper</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="519630">
+				<rom name="s1blast-dx.bin" size="519630" crc="bd864b8f" sha1="c845437666e41f011120d321e249dd909635f7af" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="s1blast" cloneof="s1blastdx">
+		<description>Sonic 1 Blastless</description>
+		<year>202?</year>
+		<publisher>vladikcomper</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="464232">
+				<rom name="s1blast.bin" size="464232" crc="14f32860" sha1="cbd0d19ea0075d6ee412252df72b2bd820d77d1d" />
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="sonic2xl">
 		<description>Sonic 2 XL</description>
 		<year>2010</year>
