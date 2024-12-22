@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<!--
+license:CC0-1.0
+-->
+
+<softwarelist name="megadriv" description="Sega Mega Drive/Genesis ROM hacks">
+
+	<software name="s3c">
+		<description>Sonic 3 Complete (2013-08-10)</description>
+		<year>2013</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="3932160">
+				<rom name="s3c 130810.bin" size="3932160" crc="2bd564b1" sha1="4461ed4a94b93653905c08e201f7c11a128e5a47" />
+			</dataarea>
+			<dataarea name="fram" size="4096" />
+		</part>
+	</software>
+
+	<software name="s3c_091224" cloneof="s3c">
+		<description>Sonic 3 Complete (2009-12-24)</description>
+		<year>2009</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="4194304">
+				<rom name="s3c 091224.bin" size="4194304" crc="ad43a0ba" sha1="c9a972af8cde30226442dddf5cba355f99e4a95a" />
+			</dataarea>
+			<dataarea name="fram" size="1024" />
+		</part>
+	</software>
+
+	<software name="s3c_091230" cloneof="s3c">
+		<description>Sonic 3 Complete (2009-12-30)</description>
+		<year>2009</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="4194304">
+				<rom name="s3c 091230.bin" size="4194304" crc="1132aa41" sha1="b720061429a131a99f8c93e0740ee2e16d6ff8a6" />
+			</dataarea>
+			<dataarea name="fram" size="1024" />
+		</part>
+	</software>
+
+	<software name="s3c_100404" cloneof="s3c">
+		<description>Sonic 3 Complete (2010-04-04)</description>
+		<year>2010</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="4194304">
+				<rom name="s3c 100404.bin" size="4194304" crc="5dea388f" sha1="7eb9a750efdf6133b0389a35ba3174f3b6addfa8" />
+			</dataarea>
+			<dataarea name="fram" size="1024" />
+		</part>
+	</software>
+
+	<software name="s3c_101222" cloneof="s3c">
+		<description>Sonic 3 Complete (2010-12-22)</description>
+		<year>2010</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="4194304">
+				<rom name="s3c 101222.bin" size="4194304" crc="ecc20fa3" sha1="2b98f6ee23ce759af72860a571a4840dc3db4071" />
+			</dataarea>
+			<dataarea name="fram" size="1024" />
+		</part>
+	</software>
+
+	<software name="s3c_101226" cloneof="s3c">
+		<description>Sonic 3 Complete (2010-12-26)</description>
+		<year>2010</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="4194304">
+				<rom name="s3c 101226.bin" size="4194304" crc="2c9727df" sha1="32c22000ffbba04abf40daf73f71edf9a3141f6d" />
+			</dataarea>
+			<dataarea name="fram" size="1024" />
+		</part>
+	</software>
+
+	<software name="s3c_110623" cloneof="s3c">
+		<description>Sonic 3 Complete (2011-06-23)</description>
+		<year>2011</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="3670016">
+				<rom name="s3c 110623.bin" size="3670016" crc="89e0a858" sha1="ae4c8345553edc1f01195c292fde4fc8cc263ce3" />
+			</dataarea>
+			<dataarea name="fram" size="1024" />
+		</part>
+	</software>
+
+	<software name="s3c_110706" cloneof="s3c">
+		<description>Sonic 3 Complete (2011-07-06)</description>
+		<year>2011</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="3670016">
+				<rom name="s3c 110706.bin" size="3670016" crc="519490a7" sha1="d68e0d2da9e3d5d11fb446226371cee30582aca8" />
+			</dataarea>
+			<dataarea name="fram" size="1024" />
+		</part>
+	</software>
+
+	<software name="s3c_120304" cloneof="s3c">
+		<description>Sonic 3 Complete (2012-03-04)</description>
+		<year>2012</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="3670016">
+				<rom name="s3c 120304.bin" size="3670016" crc="53b5ce6a" sha1="72fc23f8a2174888ebeaf9b5a9200d6c68555d9f" />
+			</dataarea>
+			<dataarea name="fram" size="4096" />
+		</part>
+	</software>
+
+	<software name="s3c_120324" cloneof="s3c">
+		<description>Sonic 3 Complete (2012-03-24)</description>
+		<year>2012</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="3670016">
+				<rom name="s3c 120324.bin" size="3670016" crc="6eb76b4a" sha1="a200f1cccc9bb6f0c0a7935e4e0bff7e87874177" />
+			</dataarea>
+			<dataarea name="fram" size="4096" />
+		</part>
+	</software>
+
+	<software name="s3c_120402" cloneof="s3c">
+		<description>Sonic 3 Complete (2012-04-02)</description>
+		<year>2012</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="3670016">
+				<rom name="s3c 120402.bin" size="3670016" crc="4fd5cdb9" sha1="44c0ff160d8dd77231d6e6ea8c27a8d1beb5cf45" />
+			</dataarea>
+			<dataarea name="fram" size="4096" />
+		</part>
+	</software>
+
+	<software name="s3c_130531" cloneof="s3c">
+		<description>Sonic 3 Complete (2013-05-31)</description>
+		<year>2013</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="3932160">
+				<rom name="s3c 130531.bin" size="3932160" crc="b3f50366" sha1="41f22d17820ebb53c4f2f89cdb17b7dbf3011b54" />
+			</dataarea>
+			<dataarea name="fram" size="4096" />
+		</part>
+	</software>
+
+	<software name="s3c_130601" cloneof="s3c">
+		<description>Sonic 3 Complete (2013-06-01)</description>
+		<year>2013</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="3932160">
+				<rom name="s3c 130601.bin" size="3932160" crc="8c4ba4e8" sha1="4b5fcaf815ececf2aa0da2b15b2d4b8e557d05a7" />
+			</dataarea>
+			<dataarea name="fram" size="4096" />
+		</part>
+	</software>
+
+	<software name="s3c_130602" cloneof="s3c">
+		<description>Sonic 3 Complete (2013-06-02)</description>
+		<year>2013</year>
+		<publisher>Tiddles</publisher>
+		<part name="cart" interface="megadriv_cart">
+			<feature name="slot" value="rom_fram" />
+			<dataarea name="rom" width="16" endianness="big" size="3932160">
+				<rom name="s3c 130602.bin" size="3932160" crc="26f84f73" sha1="3c547db8c3571d4b5fdf3662c52e5efe14d8b480" />
+			</dataarea>
+			<dataarea name="fram" size="4096" />
+		</part>
+	</software>
+
+</softwarelist>

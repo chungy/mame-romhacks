@@ -1,0 +1,89 @@
+bonus_stage_50rings.ips:
+Require 50 rings rather than 20 to enter a bonus stage from a starpost
+
+continuous_ending_music_knux.ips:
+Continuous ending music through both ending and credits for Knuckles' ending
+
+continuous_ending_music_sonic.ips:
+Continuous ending music through both ending and credits for Sonic/Tails' ending
+
+detailed_save_screen.ips:
+Restore lives and continues display to S3C save screen
+
+disable_big_arm.ips:
+Disable Big Arm boss in Launch Base 2
+
+disable_layout_patching.ips:
+Disable workarounds to allow Knuckles to play through Sonic 3 layouts.
+RESEARCH ONLY.  MAKES SOME LEVELS UNCOMPLETABLE FOR KNUCKLES.
+
+gumball_only.ips:
+Always go to the Gumball bonus stage from a starpost
+
+hpz_credits_music.ips:
+Play the Sonic 3 Credits music for Hidden Palace Zone, instead of Lava Reef Act 2's music
+
+knux_hpz_continuous.ips:
+Continue the theme from the Knuckles fight through the rest of Hidden Palace.
+
+knux_pink_pal.ips:
+Knuckles appears in his pinker cutscene colours.
+
+mushroom_hill.ips:
+Revert to Mushroom Hill name instead of Mushroom Valley
+
+old_bonus_stage_continues.ips:
+Old method of gaining continues in the Slot bonus stage (collect a single ring once you have 50 overall)
+
+oldschool_monitors.ips:
+Use Sonic 1/2-style monitor designs
+
+oldschool_shields_s1.ips:
+Use Sonic 1-style shields (Sonic can still insta-shield with an S1 shield)
+
+oldschool_shields_s2.ips:
+Use Sonic 2-style shields (Sonic can still insta-shield with an S2 shield)
+
+oldschool_sprites_s1.ips:
+Use Sonic 1-style sprites for Sonic (and Sonic 2-style sprites for Tails)
+
+oldschool_sprites_s2.ips:
+Use Sonic 2-style sprites for Sonic and Tails
+
+original_act_icons.ips:
+Use the original palm tree icon on all act numbers, instead of per-zone imagery
+
+original_icz_intro_colour.ips:
+Use the original colour scheme for the Icecap snowboarding segment
+
+original_super_sprites.ips:
+Use the original sprite style for Sonic 3 Super Sonic (where most sprites are duplicated from normal Sonic and aren't really Super)
+
+real_sonic_1.ips:
+Forbid spindash when using Sonic 1 control mode in the menu.  Note that this makes the game uncompletable as all characters, except for easy mode.
+
+remove_slot_continue_hud.ips:
+Remove the extra HUD that indicates progress in collecting a continue from the Slot bonus stage
+
+s3_credits_knux.ips:
+Start S3 credits music at credit sequence (Knuckles' ending) (best used with ssz_ending.ips)
+
+s3_credits_sonic.ips:
+Start S3 credits music at credit sequence (Sonic/Tails' ending) (best used with ssz_ending.ips)
+
+sk_fbz_icon.ips:
+Use S&K save screen icon for Flying Battery
+
+sk_monitor_behaviour.ips:
+Sonic & Knuckles-style monitor behaviour (pop from any angle)
+
+skip_lbz_cutscene.ips:
+Skip the cutscene that follows Sonic and Tails' Launch Base.
+(You can press start to skip it in game without the patch.)
+
+ssz_ending_knux.ips:
+Use original "Sky Sanctuary" ending music (Knuckles' ending)
+
+ssz_ending_sonic.ips:
+Use original "Sky Sanctuary" ending music (Sonic/Tails' ending)
+

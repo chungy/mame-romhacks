@@ -1,0 +1,42 @@
+sk_main_themes.ips:
+Use S&K title screen, invincibility, game clear and 1up tracks
+
+sk_1up_theme.ips:
+Use S&K 1up track only (overrides the above)
+
+sk_knux_miniboss.ips:
+Use S&K midboss and Knuckles tracks exclusively (don't use with below!)
+
+knux_hpz_special_theme.ips:
+Use S3 midboss theme for Knuckles fight only (don't use with above!)
+
+sk_continue_tempo.ips:
+Use S&K continue/race results/Blue Sphere music (slower)
+
+ssz_ending.ips:
+Use original ending music
+
+sk_credits.ips:
+Use original credits music
+
+act_complete_fade.ips:
+Fade music before results screen
+
+after_zone_music.ips:
+Resume act 2 music after zone results screen
+
+original_super_controls.ips:
+Use original double-jump/transformation button setup
+
+disable_super_cancel.ips:
+Disable ability to cancel out of super/hyper
+
+disable_big_arm.ips:
+Disable Big Arm boss in Launch Base 2
+
+s3_credits.ips:
+Start S3 credits music at credit sequence (best used with ssz_ending.ips)
+
+continuous_ending_music.ips:
+Continuous ending music through both ending and credits
+
