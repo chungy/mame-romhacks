@@ -1,0 +1,12 @@
+# Source this file into your environment
+
+ROMHACK_BASE="$HOME/.mame/romhacks"
+ROMHACK_ROMS="$ROMHACK_BASE/roms"
+ROMHACK_HASH="$ROMHACK_BASE/hash"
+
+function mamerh()
+{
+	mame "$@" -rompath "$ROMHACK_ROMS" -hashpath "$ROMHACK_HASH"
+}
+
+export mamerh
