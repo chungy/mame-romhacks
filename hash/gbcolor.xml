@@ -9,6 +9,20 @@ Game Boy games. -->
 
 <softwarelist name="gbcolor" description="Nintendo Game Boy Color ROM hacks">
 
+	<software name="mmw4dx" supported="partial">
+		<!-- Layering problems in MAME 0.272 -->
+		<description>Mega Man World 4 DX</description>
+		<year>2024</year>
+		<publisher>kensuyjin33 &amp; marc_max</publisher>
+		<info name="version" value="1.0" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="mmw4dx_v1.bin" size="1048576" crc="9e4fd5d3" sha1="8ee88ad4eab0d4eb08b56fcee74e022e8e4e5316" />
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="metroid2dx">
 		<description>Metroid II DX</description>
 		<year>2013</year>
