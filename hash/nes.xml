@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<!--
+license:CC0-1.0
+-->
+
+<softwarelist name="nes" description="Nintendo Entertainment System ROM hacks">
+
+	<software name="smbsp">
+		<description>Super Mario Bros. Special Edition: 35th Anniversary Edition</description>
+		<year>2021</year>
+		<publisher>frantik</publisher>
+		<info name="version" value="1.3" />
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="sxrom" />
+			<feature name="pcb" value="NES-SLROM" />
+			<feature name="mirroring" value="vertical" />
+			<dataarea name="prg" size="65536">
+				<rom name="smbsp35 prg" size="65536" crc="091def7d" sha1="28cfa4fb4b3e4291836545ad123d9b72d3145c8f" />
+			</dataarea>
+			<dataarea name="chr" size="32768">
+				<rom name="smbsp35 chr" size="32768" crc="43bce7a0" sha1="e116d84f826feffd8bb63cad200988c8f972dda6" />
+			</dataarea>
+			<dataarea name="vram" size="8192" />
+			<dataarea name="bwram" size="8192" />
+		</part>
+	</software>
+
+	<software name="smb2j">
+		<description>Super Mario Bros. 2 (FDS-to-MMC3 conversion)</description>
+		<year>2015</year>
+		<publisher>loopy</publisher>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="txrom" />
+			<feature name="pcb" value="NES-TLROM" />
+			<dataarea name="prg" size="65536">
+				<rom name="smb2j prg" size="65536" crc="181d6725" sha1="f472afd3988aafc7735f1589f83013bc9d58b3a7" />
+			</dataarea>
+			<dataarea name="chr" size="16384">
+				<rom name="smb2j chr" size="16384" crc="dff80de9" sha1="8d8af488d73f102cec31c6add539eeac697e9d57" />
+			</dataarea>
+			<dataarea name="vram" size="8192" />
+			<dataarea name="bwram" size="8192" />
+		</part>
+	</software>
+
+</softwarelist>
