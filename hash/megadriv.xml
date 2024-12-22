@@ -213,7 +213,7 @@ license:CC0-1.0
 	<software name="sonic2xl">
 		<description>Sonic 2 XL</description>
 		<year>2010</year>
-		<publisher>Captain Bozo + Ranger</publisher>
+		<publisher>Captain Bozo &amp; Ranger</publisher>
 		<part name="cart" interface="megadriv_cart">
 			<dataarea name="rom" width="16" endianness="big" size="4194304">
 				<rom name="sonic2xl.bin" size="4194304" crc="9459fbfb" sha1="3da63ca02a76e2ee5767eaa4ab453f6bc8c27bd5" />
