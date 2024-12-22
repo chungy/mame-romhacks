@@ -1,13 +1,42 @@
 <?xml version="1.0"?>
 <!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
 <!--
-	license:CC0-1.0
+license:CC0-1.0
 -->
 
 <!-- This is naturally going to contain GBC-exclusive upgrades of old
-     Game Boy games. -->
+Game Boy games. -->
 
 <softwarelist name="gbcolor" description="Nintendo Game Boy Color ROM hacks">
+
+	<software name="metroid2dx">
+		<description>Metroid II DX</description>
+		<year>2013</year>
+		<publisher>Drakon</publisher>
+		<info name="version" value="2.0" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc1" />
+			<dataarea name="rom" size="524288">
+				<rom name="metroid2dx.u1" size="524288" crc="d1db593d" sha1="547baeeb8d90bd09caf0325eeee9a8a1705d13a7" />
+			</dataarea>
+			<dataarea name="nvram" size="0x2000" />
+		</part>
+	</software>
+
+	<!-- Contains a broken logo check -->
+	<software name="metroid2dxv1" cloneof="metroid2dx" supported="no">
+		<description>Metroid II DX (v1.0)</description>
+		<year>2003</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="version" value="1.0" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc1" />
+			<dataarea name="rom" size="1048576">
+				<rom name="metroid2dx v1.u1" size="1048576" crc="660476bc" sha1="67e59d31ccc2e356267c236a5a986923b0f33296" />
+			</dataarea>
+			<dataarea name="nvram" size="0x2000" />
+		</part>
+	</software>
 
 	<software name="pokeblue_color">
 		<description>Pokémon - Blue Version (Full Color Hack)</description>
