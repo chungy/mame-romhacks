@@ -10,6 +10,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2013-08-10)</description>
 		<year>2013</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20130810" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="3932160">
@@ -23,6 +24,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2009-12-24)</description>
 		<year>2009</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20091224" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="4194304">
@@ -36,6 +38,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2009-12-30)</description>
 		<year>2009</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20091230" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="4194304">
@@ -49,6 +52,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2010-04-04)</description>
 		<year>2010</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20100404" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="4194304">
@@ -62,6 +66,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2010-12-22)</description>
 		<year>2010</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20101222" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="4194304">
@@ -75,6 +80,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2010-12-26)</description>
 		<year>2010</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20101226" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="4194304">
@@ -88,6 +94,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2011-06-23)</description>
 		<year>2011</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20110623" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="3670016">
@@ -101,6 +108,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2011-07-06)</description>
 		<year>2011</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20110706" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="3670016">
@@ -114,6 +122,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2012-03-04)</description>
 		<year>2012</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20120304" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="3670016">
@@ -127,6 +136,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2012-03-24)</description>
 		<year>2012</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20120324" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="3670016">
@@ -140,6 +150,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2012-04-02)</description>
 		<year>2012</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20120402" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="3670016">
@@ -153,6 +164,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2013-05-31)</description>
 		<year>2013</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20130531" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="3932160">
@@ -166,6 +178,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2013-06-01)</description>
 		<year>2013</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20130601" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="3932160">
@@ -179,6 +192,7 @@ license:CC0-1.0
 		<description>Sonic 3 Complete (2013-06-02)</description>
 		<year>2013</year>
 		<publisher>Tiddles</publisher>
+		<info name="release" value="20130602" />
 		<part name="cart" interface="megadriv_cart">
 			<feature name="slot" value="rom_fram" />
 			<dataarea name="rom" width="16" endianness="big" size="3932160">
@@ -192,6 +206,7 @@ license:CC0-1.0
 		<description>Sonic 1 Blastless DX</description>
 		<year>2021</year>
 		<publisher>vladikcomper</publisher>
+		<info name="release" value="20211003" />
 		<part name="cart" interface="megadriv_cart">
 			<dataarea name="rom" width="16" endianness="big" size="519630">
 				<rom name="s1blast-dx.bin" size="519630" crc="bd864b8f" sha1="c845437666e41f011120d321e249dd909635f7af" />
@@ -213,7 +228,8 @@ license:CC0-1.0
 	<software name="sonic2xl">
 		<description>Sonic 2 XL</description>
 		<year>2010</year>
-		<publisher>Captain Bozo &amp; Ranger</publisher>
+		<publisher>Captain Bozo / Ranger</publisher>
+		<info name="release" value="20100712" />
 		<part name="cart" interface="megadriv_cart">
 			<dataarea name="rom" width="16" endianness="big" size="4194304">
 				<rom name="sonic2xl.bin" size="4194304" crc="9459fbfb" sha1="3da63ca02a76e2ee5767eaa4ab453f6bc8c27bd5" />
