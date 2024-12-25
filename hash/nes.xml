@@ -94,6 +94,7 @@ license:CC0-1.0
 		<description>Super Mario Bros. 2 (FDS-to-MMC3 conversion)</description>
 		<year>2015</year>
 		<publisher>loopy</publisher>
+		<info name="release" value="20150619" />
 		<part name="cart" interface="nes_cart">
 			<feature name="slot" value="txrom" />
 			<feature name="pcb" value="NES-TLROM" />

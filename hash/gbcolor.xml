@@ -11,9 +11,10 @@ Game Boy games. -->
 
 	<software name="mmw4dx" supported="partial">
 		<!-- Layering problems in MAME 0.272 -->
-		<description>Mega Man World 4 DX</description>
+		<description>Mega Man World 4 DX (version 1.0)</description>
 		<year>2024</year>
 		<publisher>kensuyjin33 &amp; marc_max</publisher>
+		<info name="release" value="20241212" />
 		<info name="version" value="1.0" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc5" />
@@ -25,9 +26,10 @@ Game Boy games. -->
 
 	<!-- Bad colors in MAME 0.272 -->
 	<software name="metroid2dx" supported="partial">
-		<description>Metroid II DX</description>
+		<description>Metroid II DX (version 2.0)</description>
 		<year>2013</year>
 		<publisher>Drakon</publisher>
+		<info name="release" value="20130307" />
 		<info name="version" value="2.0" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc1" />
@@ -40,9 +42,10 @@ Game Boy games. -->
 
 	<!-- Contains a broken logo check -->
 	<software name="metroid2dxv1" cloneof="metroid2dx" supported="no">
-		<description>Metroid II DX (v1.0)</description>
+		<description>Metroid II DX (version 1.0)</description>
 		<year>2003</year>
 		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20030803" />
 		<info name="version" value="1.0" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc1" />
@@ -57,6 +60,7 @@ Game Boy games. -->
 		<description>Pokémon - Blue Version (Full Color Hack)</description>
 		<year>2017</year>
 		<publisher>Drenn</publisher>
+		<info name="release" value="20170725" />
 		<info name="version" value="1.2" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc3" />
@@ -71,6 +75,7 @@ Game Boy games. -->
 		<description>Pokémon - Blue Version (Full Color Hack, Gen2 sprites)</description>
 		<year>2017</year>
 		<publisher>Drenn</publisher>
+		<info name="release" value="20170725" />
 		<info name="version" value="1.2" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc3" />
@@ -85,6 +90,7 @@ Game Boy games. -->
 		<description>Pokémon - Red Version (Full Color Hack)</description>
 		<year>2017</year>
 		<publisher>Drenn</publisher>
+		<info name="release" value="20170725" />
 		<info name="version" value="1.2" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc3" />
@@ -99,6 +105,7 @@ Game Boy games. -->
 		<description>Pokémon - Red Version (Full Color Hack, Gen2 sprites)</description>
 		<year>2017</year>
 		<publisher>Drenn</publisher>
+		<info name="release" value="20170725" />
 		<info name="version" value="1.2" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc3" />
@@ -141,8 +148,9 @@ Game Boy games. -->
 
 	<software name="sml2dx">
 		<description>Super Mario Land 2 DX</description>
-		<year>2017</year>
+		<year>2018</year>
 		<publisher>toruzz</publisher>
+		<info name="release" value="20180719" />
 		<info name="version" value="1.8.1" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc5" />
@@ -155,8 +163,9 @@ Game Boy games. -->
 
 	<software name="sml2dxj" cloneof="sml2dx">
 		<description>Super Mario Land 2 DX (Japan)</description>
-		<year>2017</year>
+		<year>2018</year>
 		<publisher>toruzz</publisher>
+		<info name="release" value="20180719" />
 		<info name="version" value="1.8.1" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc5" />
