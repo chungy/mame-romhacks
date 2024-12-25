@@ -23,7 +23,8 @@ Game Boy games. -->
 		</part>
 	</software>
 
-	<software name="metroid2dx">
+	<!-- Bad colors in MAME 0.272 -->
+	<software name="metroid2dx" supported="partial">
 		<description>Metroid II DX</description>
 		<year>2013</year>
 		<publisher>Drakon</publisher>
