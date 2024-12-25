@@ -1,0 +1,159 @@
+act_complete_fade.ips:
+Fade music out before the act results screen appears (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+after_zone_music.ips:
+Resume act 2 music after zone results screen (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+bonus_stage_50rings.ips:
+Require 50 rings rather than 20 to enter a bonus stage from a starpost
+
+continuous_ending_music_knux.ips:
+Continuous ending music through both ending and credits for Knuckles' ending
+
+continuous_ending_music_sonic.ips:
+Continuous ending music through both ending and credits for Sonic/Tails' ending
+
+disable_big_arm.ips:
+Disable Big Arm boss in Launch Base 2
+
+disable_layout_patching.ips:
+Disable workarounds to allow Knuckles to play through Sonic 3 layouts.
+RESEARCH ONLY.  MAKES SOME LEVELS UNCOMPLETABLE FOR KNUCKLES.
+
+disable_super_cancel.ips:
+Disable ability to cancel out of super/hyper
+
+disable_music.ips:
+Remove all music (for making videos with custom soundtrack) (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+game_char_themes.ips:
+Use S3 music for Sonic/Tails' game, S&K music for Knuckles' game (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+game_mode_themes.ips:
+Always use S&K/S3 music when playing S&K/S3 separately (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+game_zone_themes.ips:
+Use S3 music during S3 zones, S&K music during S&K zones (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+gumball_only.ips:
+Always go to the Gumball bonus stage from a starpost
+
+hpz_credits_music.ips:
+Play the Sonic 3 Credits music for Hidden Palace Zone, instead of Lava Reef Act 2's music
+
+knux_hpz_continuous.ips:
+Continue the theme from the Knuckles fight through the rest of Hidden Palace.
+
+knux_pink_pal.ips:
+Knuckles appears in his pinker cutscene colours.
+
+mushroom_hill.ips:
+Revert to Mushroom Hill name instead of Mushroom Valley
+
+old_bonus_stage_continues.ips:
+Old method of gaining continues in the Slot bonus stage (collect a single ring once you have 50 overall)
+
+oldschool_abilities:
+Use Sonic 2-style control mechanics for Sonic and Tails (plus Knuckles' glide doesn't deflect projectiles)
+
+oldschool_palette_s1:
+Use Sonic 1-style palette for Sonic
+
+oldschool_palette_s2:
+Use Sonic 2-style palette for Sonic
+
+oldschool_shields_s1:
+Use Sonic 1-style shields (Sonic can still insta-shield with an S1 shield)
+
+oldschool_shields_s2:
+Use Sonic 2-style shields (Sonic can still insta-shield with an S2 shield)
+
+oldschool_sprites_s1:
+Use Sonic 1-style sprites for Sonic (and Sonic 2-style sprites for Tails)
+
+oldschool_sprites_s2:
+Use Sonic 2-style sprites for Sonic and Tails
+
+original_act_icons.ips:
+Use the original palm tree icon on all act numbers, instead of per-zone imagery
+
+original_icz_intro_colour.ips:
+Use the original colour scheme for the Icecap snowboarding segment
+
+original_super_controls.ips:
+Use original double-jump/transformation button setup
+
+remove_slot_continue_hud.ips:
+Remove the extra HUD that indicates progress in collecting a continue from the Slot bonus stage
+
+s3_credits_knux.ips:
+Start S3 credits music at credit sequence (Knuckles' ending) (best used with ssz_ending.ips)
+
+s3_credits_sonic.ips:
+Start S3 credits music at credit sequence (Sonic/Tails' ending) (best used with ssz_ending.ips)
+
+s3_obj_layouts_knux.ips:
+Always use the Sonic 3 object layouts for Sonic 3 zones for Knuckles.
+These will be manipulated so that Knuckles can complete the levels.
+Ignored if either of the Sonic Jam modes are enabled (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+s3_obj_layouts_sonic.ips:
+Always use the Sonic 3 object layouts for Sonic 3 zones for Sonic/Tails.
+Ignored if either of the Sonic Jam modes are enabled (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+s3d_results_tempo.ips:
+Use slower Act Clear music from Sonic 3D/SKPC (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+sk_1up_theme.ips:
+Use S&K 1up track, and the S3 versions of the other main themes.
+This will OVERRIDE sk_main_themes.ips and set the non-1up themes to S3 versions.  (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+sk_continue_tempo.ips:
+Use S&K continue/race results/Blue Sphere title music (slower) (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+sk_credits.ips:
+Use original Sonic & Knuckles credits music (features only S&K zones and ends with the S&K sting) (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+sk_fbz_icon.ips:
+Use S&K save screen icon for Flying Battery
+
+sk_knux.ips:
+Use S&K Knuckles track (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+sk_main_themes.ips:
+Use S&K title screen, invincibility, game clear and 1up tracks (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+sk_miniboss.ips:
+Use S&K midboss track (S3 version will still be used for fighting Knuckles, unless sk_knux is also applied) (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+sk_monitor_behaviour:
+Sonic & Knuckles-style monitor behaviour (pop from any angle)
+
+sk_obj_layouts_knux.ips:
+Always use the Sonic & Knuckles object layouts for Sonic 3 zones for Sonic/Tails.
+Ignored if either of the Sonic Jam modes are enabled (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+sk_obj_layouts_sonic.ips:
+Always use the Sonic & Knuckles object layouts for Sonic 3 zones for Sonic/Tails.
+Ignored if either of the Sonic Jam modes are enabled (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+skip_lbz_cutscene.ips:
+Skip the cutscene that follows Sonic and Tails' Launch Base.
+(You can press start to skip it in game without the patch.)
+
+sonic_jam_easy.ips:
+Use layouts and playstyle from Sonic Jam's "Easy" mode.
+Overrides S3/S&K layout selection (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+sonic_jam_normal.ips:
+Use layouts and playstyle from Sonic Jam's "Normal" mode.
+Overrides S3/S&K layout selection (only required for persistent setting in Regen; otherwise, use the in-game menus)
+
+ssz_ending_knux.ips:
+Use original "Sky Sanctuary" ending music (Knuckles' ending)
+
+ssz_ending_sonic.ips:
+Use original "Sky Sanctuary" ending music (Sonic/Tails' ending)
+
+super_invincible_music.ips:
+Use invincibility music for super forms, rather than sped-up level music
