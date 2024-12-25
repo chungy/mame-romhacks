@@ -1,0 +1,62 @@
+"Sonic 3 Complete" 091230
+
+
+Changes since 091224
+
+Fixes for previous issues specific to this modification:
+
+- Stage music should now return to the correct speed after transforming, or 
+  collecting or losing speed shoes, during 1up music.
+- Fixes to handling of music speed for Tails only.
+- Clarified change list:
+  + Big Arm makes two sweeps instead of four like in Sonic 3, but still can't 
+    hit when super.
+  + Transformation can be invoked by holding C and pressing B, rather than 
+    having to mash both.
+
+New bugfixes:
+
+- Collecting extra lives will not increase the counter past 99.
+- Fixed possible Marble Garden 2 boss corruption after killing a Spiker with
+  hyper dash.
+
+
+
+New features:
+
+Included various music-related IPS patches.  These only apply to this ROM:
+
+sk_main_themes.ips         - Uses the title, invincibility, extra life and
+                             unused game complete music from S&K rather
+                             than S3.
+sk_credits.ips             - Uses the final S&K version of the credits
+                             theme.
+ssz_ending.ips             - Restores the Sky Sanctuary theme to the ending
+                             in place of the Sonic 3 credits track.
+sk_knux_miniboss.ips       - Uses the S&K themes for Knuckles and minibosses.
+                             NOT COMPATIBLE WITH THE FOLLOWING PATCH.
+knux_hpz_special_theme.ips - Uses the S3 Knuckles theme and S&K miniboss theme. 
+                             The S3 miniboss theme is used only when fighting
+                             Knuckles.  NOT COMPATIBLE WITH THE PREVIOUS PATCH.
+act_complete_fade.ips      - Brings back S&K style music fade before the act
+                             complete screen.
+after_zone_music.ips       - Brings back post-zone-complete music.
+                              If you want to apply this patch only to certain 
+			      zones using something like IPSelect, the hunks  
+			      are in the following order:
+                                CNZ (Knuckles)
+                                AIZ
+                                HCZ
+                                MGZ (Sonic/Tails)
+                                MGZ (Knuckles)
+                                CNZ (Sonic/Tails)
+                                FBZ
+                                ICZ*
+                                MHZ
+                                SOZ
+                                LRZ (Sonic/Tails)
+
+                                *LBZ Sonic/Tails follows ICZ in the original.  
+				The added Big Arm stuff means this shouldn't be 
+				restored so it has no patch hunk.  Knuckles 
+				never had the act music resume in LBZ anyway.

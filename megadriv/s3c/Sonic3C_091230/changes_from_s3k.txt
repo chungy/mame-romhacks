@@ -1,0 +1,60 @@
+Sonic 3-ification
+-----------------
+Tracks for title screen, invincibility, Knuckles' theme, miniboss, 1up, S3 ending and data select are the S3 versions.
+Various music cues are flipped around to work with this:
+  Marble Garden 2 boss for Knuckles plays the standard zone boss theme.
+  Flying Battery 2 sub-boss plays the SK miniboss theme.
+  Hidden Palace plays S3 miniboss for Knuckles fight, SK miniboss for emerald theft.
+  Sonic 3 credits plays during the ending before the main credits begin (replacing Sky Sanctuary)
+  The Blue Sphere difficulty screen now plays the Gumball Bonus music.
+Music no longer fades out before the Got Through screen
+Act music no longer resumes after the Got Through screen before a zone transition.
+Credits music has been replaced with the S3C 0517 version.
+Sonic/Tails have their final Launch Base 2 boss restored, with its Sonic 3 movement patterns.
+  The arm smash does not ignore invincibility any more though, like Knuckles' S3K version.
+  Knuckles' version is unaffected.
+Flying Battery shows up with its unused Sonic 3 icon in Data Select.
+All references to "& Knuckles" removed, title screen positioning realigned to original setup.
+
+Bugfixes
+--------
+Tails no longer has extra tails in the LBZ2 ending cutscene.  (S3K regression)
+The egg prison at the end of Hydrocity is now correctly centred for Sonic and Tails.  (S3K regression)
+The correct music will resume after a drown timer while fighting the Hydrocity bosses.
+The boss music gives way to the act music at the end of Sandopolis 1 and Lava Reef 2.
+The correct music will always resume when coming back from a special stage or bonus stage (AIZ1, ICZ1).
+Workaround added to Mushroom Hill 2 and Sandopolis 2 bosses to prevent Knuckles from sometimes seeing Eggman.
+Knuckles now fights EggRobo in Flying Battery 2.
+You will no longer lose barriers if hit from the blue spinning platforms in Marble Garden.
+SONIC text is no longer backwards when the Tornado flies left during the ending.
+Sonic's exit from Lava Reef to Hidden Palace is now blue rather than red.
+The music tempo glitch at the beginning of Doomsday has been removed.
+Collecting extra lives will not increase the counter past 99.
+Fixed possible Marble Garden 2 boss corruption after killing a Spiker with hyper dash.
+
+Features/Misc.
+-------------
+Super/Hyper must be invoked by holding C and pressing B into a double jump (Megamix style).
+  This allows Tails/Knuckles to play without powering up after having all emeralds.
+  Sonic can now transform even if he has a barrier.
+  Alternatively, you can hold B and press C, unless debug is active.
+  Added ability to return to normal with the same button combinations.
+While in super or hyper form, sped-up level music plays instead of invincibility music.
+Speed shoes monitors now have no effect when collected in super or hyper form.
+The existing S3K cheats work, plus:
+  B+Start on 1 Player on the S3 title screen takes you to Sonic & Knuckles, with all the same changes, including music.
+    Restrictions on zone and character selection from the level select in S&K are removed if debug is enabled.
+  B+Start on the SK title screen takes you to back to Sonic 3.
+  C+Start on 1 Player on the S3 or SK title screen takes you to Blue Sphere
+    Tails has been added as a playable character in Blue Sphere.
+  RLLLR on S3/SK title screen menu switches region graphics (Tails/Miles, TM signs)
+  LLRRLLLL on S3/SK title screen menu enables level select.
+  01 03 05 07 on sound test enables debug
+  02 04 05 06 on sound test gives all chaos emeralds
+    This will not reset the status of anything done with HPZ/super emeralds
+  12 14 15 16 on sound test gives all super emeralds
+"DEATHEGG" and "THE DOOMSDAY" changed to the more sensible "DEATH EGG" and "DOOMSDAY" in level select.
+Level Select now has the Data Select background, replacing the Sonic 2 SONIC/MILES pattern.
+Sound effect F3 will now speed up music as if speed shoes were active when used in the level select.
+  F4 returns to normal speed, as does starting another track.
+
