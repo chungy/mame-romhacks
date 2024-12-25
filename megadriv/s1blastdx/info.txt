@@ -1,0 +1,61 @@
+================================================================================================================================
+Sonic 1 Blastless DX
+By vladikcomper
+--------------------------------------------------------------------------------------------------------------------------------
+https://shc.zone/entries/contest2021/553
+================================================================================================================================
+
+As you all know, Sega Mega-Drive® is famously powered by Blast Processing™ technology. This isn't just a marketing term, but a really sophisticated, advanced technology behind SEGA's most successful titles, most notably, the Sonic series.
+
+So, as usual, I was working on my Sonic the Hedgehog™ hack, doing my usual Blast Processing™ wizardry to bring you state of the art High Definition Sound and Graphics™ experience. However, I got a little carried away and shoved in so much Blast Processing™ power into the hack that the ROM nearly exploded. It is now forever cursed and has forever lost any Blast Processing™ power. Or has it?
+
+But my senses feel that Blast Processing™ power is still there, well-hidden deep inside it. Can you regain it? Be careful, though, and avoid any form of damage in the game. With so much processing power already lost, who knows what may come out of it? If you aren't careful enough, you may enter into an Anti-Blast Processing™ parallel universe, where the power of your beloved Sega Mega-Drive® may be reduced beyond, I dunno, GameBoy®? Play it at your own risk! Your Sega Mega-Drive® won't feel the same anymore!
+
+* * *
+
+Sonic 1 Blastless DX is an enhanced version of the original Sonic 1 Blastless hack, that was originally released on Apr 1, 2021.
+
+The DX version (which stands for Deluxe, not Diretor's Cut) brings in the following improvements in a less than 4 Mega Power (512 KB) ROM:
+
+
+
+Even faster graphics mode switches! As if there weren't already fast enough, but the DX version is able to restore Blast Processing in the blink of an eye!
+
+Subtle changes/improvements in some graphic modes;
+
+Get a new life every 50,0000 score points;
+
+Many bugfixes and QoL improvements (that SYZ3 block no longer blocks the way!);
+
+Play it in PAL region! I know, 50 Hz is slower, but seriously, go play it at least once. Have you turned it on? You may need to doublecheck...
+
+
+
+
+
+For those of you who craves for even more stuff, try to figure out access to the following DX-exclusive hidden goodies!
+
+
+
+All-new DOS mode! - Imagine playing Sonic 1 on a good old i386 DOS-PC!
+
+A brand new Configuration mode! - That changes the way you play the game! This is absolutely the most powerful built-in tool you may ever get in a Sonic hack!
+
+
+
+
+
+Hint: There's no in-game messages that reveal access to those hidden goodies, so you have to it figure out using a bit of brute force. Accessing them is easier than you may think though. It's just one step away from entering the Level Select mode! Once you activated that secret mode, you can also press certain buttons when paused the game to go back to Title Screen or Configuration mode respectively.
+
+== CREDITS =====================================================================================================================
+
+AURORA☆FIELDS - For testing, and valuable debugging help;
+
+Jet - For testing and various ideas;
+
+RayDC - For making the presentation image;
+
+LazloPsylus - For the idea for the hack's name.
+
+================================================================================================================================
+
