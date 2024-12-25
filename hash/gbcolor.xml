@@ -57,7 +57,7 @@ Game Boy games. -->
 	</software>
 
 	<software name="pokeblue_color">
-		<description>Pokémon - Blue Version (Full Color Hack)</description>
+		<description>Pokémon - Blue Version Full Color Hack (version 1.2)</description>
 		<year>2017</year>
 		<publisher>Drenn</publisher>
 		<info name="release" value="20170725" />
@@ -72,7 +72,7 @@ Game Boy games. -->
 	</software>
 
 	<software name="pokeblue_color2" cloneof="pokeblue_color">
-		<description>Pokémon - Blue Version (Full Color Hack, Gen2 sprites)</description>
+		<description>Pokémon - Blue Version Full Color Hack (version 1.2, Gen2 sprites)</description>
 		<year>2017</year>
 		<publisher>Drenn</publisher>
 		<info name="release" value="20170725" />
@@ -86,8 +86,66 @@ Game Boy games. -->
 		</part>
 	</software>
 
+	<software name="pokeblue_color_v11" cloneof="pokeblue_color">
+		<description>Pokémon - Blue Version Full Color Hack (version 1.1)</description>
+		<year>2016</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20160120" />
+		<info name="version" value="1.1" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokeblue_color_vanilla_1.1.u1" size="1048576" crc="ab0ccaab" sha1="d5401e8a8c9546f948e7c7c4d5bbc83a00cbae4f" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokeblue_color2_v11" cloneof="pokeblue_color">
+		<description>Pokémon - Blue Version Full Color Hack (version 1.1, Gen2 sprites)</description>
+		<year>2016</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20160120" />
+		<info name="version" value="1.1" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokeblue_color_gen2_1.1.u1" size="1048576" crc="1afc671e" sha1="76449c97ced0055db6c5cb69dacd3c2d4e49a633" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokeblue_color_141103" cloneof="pokeblue_color">
+		<description>Pokémon - Blue Version Full Color Hack (2014-11-03)</description>
+		<year>2014</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20141103" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokeblue_color_vanilla_141103.u1" size="1048576" crc="998038e6" sha1="52838f8fc9a02ba8a8fc88847f44f3d55d2e9a22" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokeblue_color2_141103" cloneof="pokeblue_color">
+		<description>Pokémon - Blue Version Full Color Hack (2014-11-03, Gen2 sprites)</description>
+		<year>2014</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20141103" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokeblue_color_gen2_141103.u1" size="1048576" crc="5b3d0683" sha1="e02e6cae2e3f3470db61e4265b39f6e572e71210" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
 	<software name="pokered_color">
-		<description>Pokémon - Red Version (Full Color Hack)</description>
+		<description>Pokémon - Red Version Full Color Hack (version 1.2)</description>
 		<year>2017</year>
 		<publisher>Drenn</publisher>
 		<info name="release" value="20170725" />
@@ -102,7 +160,7 @@ Game Boy games. -->
 	</software>
 
 	<software name="pokered_color2" cloneof="pokered_color">
-		<description>Pokémon - Red Version (Full Color Hack, Gen2 sprites)</description>
+		<description>Pokémon - Red Version Full Color Hack (version 1.2, Gen2 sprites)</description>
 		<year>2017</year>
 		<publisher>Drenn</publisher>
 		<info name="release" value="20170725" />
@@ -111,6 +169,92 @@ Game Boy games. -->
 			<feature name="slot" value="rom_mbc3" />
 			<dataarea name="rom" size="1048576">
 				<rom name="pokered_color_gen2.u1" size="1048576" crc="2846d1b0" sha1="8332059e2715e21ef8d6ae6828d565d681479fb0" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokered_color_v11" cloneof="pokered_color">
+		<description>Pokémon - Red Version Full Color Hack (version 1.1)</description>
+		<year>2016</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20160120" />
+		<info name="version" value="1.1" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokered_color_vanilla_1.1.u1" size="1048576" crc="559f832e" sha1="8ca5f38ab1f6288fbba10be7d94c0c7ae184aba9" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokered_color2_v11" cloneof="pokered_color">
+		<description>Pokémon - Red Version Full Color Hack (version 1.1, Gen2 sprites)</description>
+		<year>2016</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20160120" />
+		<info name="version" value="1.1" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokered_color_gen2_1.1.u1" size="1048576" crc="0c3eba18" sha1="07af0a0c6bddcbbae093e92c07c164fc3a37cb8c" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokered_color_140703" cloneof="pokered_color">
+		<description>Pokémon - Red Version Full Color Hack (2014-07-03)</description>
+		<year>2014</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20140703" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokered_color_vanilla_140703.u1" size="1048576" crc="114d9de2" sha1="72ad8081b773c6aa90f8e7b4dbc0374580aef6a2" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokered_color2_140703" cloneof="pokered_color">
+		<description>Pokémon - Red Version Full Color Hack (2014-07-03, Gen2 sprites)</description>
+		<year>2014</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20140703" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokered_color_gen2_140703.u1" size="1048576" crc="70fc5a20" sha1="2f4cf7f83128cd8526ad8c2641c476fdd015c5e4" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokered_color_141103" cloneof="pokered_color">
+		<description>Pokémon - Red Version Full Color Hack (2014-11-03)</description>
+		<year>2014</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20141103" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokered_color_vanilla_141103.u1" size="1048576" crc="00db9348" sha1="224572f67a185b52d9049de94046000c4bcc37c5" />
+			</dataarea>
+			<dataarea name="nvram" size="0x8000" />
+		</part>
+	</software>
+
+	<software name="pokered_color2_141103" cloneof="pokered_color">
+		<description>Pokémon - Red Version Full Color Hack (2014-11-03, Gen2 sprites)</description>
+		<year>2014</year>
+		<publisher>Drenn</publisher>
+		<info name="release" value="20141103" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc3" />
+			<dataarea name="rom" size="1048576">
+				<rom name="pokered_color_gen2_141103.u1" size="1048576" crc="b8c7bdb2" sha1="2daac3d9192b3535ee101e3dc83be9afdd7a1848" />
 			</dataarea>
 			<dataarea name="nvram" size="0x8000" />
 		</part>
