@@ -109,16 +109,32 @@ Game Boy games. -->
 		</part>
 	</software>
 
-	<!-- ROM header claims save RAM, but the game doesn't actually use it... -->
 	<software name="smldx">
-		<description>Super Mario Land DX</description>
+		<description>Super Mario Land DX (version 2.0)</description>
+		<year>2022</year>
+		<publisher>toruzz</publisher>
+		<info name="release" value="20220420" />
+		<info name="version" value="1.0" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="262144">
+				<rom name="smldx.u1" size="262144" crc="38b24f70" sha1="e33874064bba13f8871a8bfe8e5c695ab2e49580" />
+			</dataarea>
+			<dataarea name="nvram" size="8192" />
+		</part>
+	</software>
+
+	<!-- ROM header claims save RAM, but the game doesn't actually use it... -->
+	<software name="smldxv10" cloneof="smldx">
+		<description>Super Mario Land DX (version 1.0)</description>
 		<year>2019</year>
 		<publisher>toruzz</publisher>
+		<info name="release" value="20190422" />
 		<info name="version" value="1.0" />
 		<part name="cart" interface="gameboy_cart">
 			<feature name="slot" value="rom_mbc5" />
 			<dataarea name="rom" size="131072">
-				<rom name="smldx.u1" size="131072" crc="6862d7f8" sha1="7d95107c45d4f33649324da2e8a3c8ddb10cda5e" />
+				<rom name="smldx 1.0.u1" size="131072" crc="6862d7f8" sha1="7d95107c45d4f33649324da2e8a3c8ddb10cda5e" />
 			</dataarea>
 		</part>
 	</software>
