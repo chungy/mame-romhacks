@@ -1,0 +1,11 @@
+From https://forums.atariage.com/topic/207249-fixing-et-the-extra-terrestrial/?do=findComment&comment=4163933
+
+froggeret, November 25, 2018
+
+This fixed version includes:
+
+(1) Pit / Feet Fix - You can continue pushing UP while exiting a pit without falling back in.
+
+(2) All Neocomputer fixes from 2013, BUT with the default / Color mode with ORIGINAL difficulty and energy scoring (i.e., energy reduced for walking, running, or hovering, and leftover energy added to score at the end of a round), and B&W mode with their easier difficulty (energy) option.
+
+(3) Ninja ET only with 3 candies given to Elliot, and 3 held by ET at the end of a round.

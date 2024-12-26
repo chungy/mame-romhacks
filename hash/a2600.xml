@@ -7,14 +7,27 @@ license:CC0-1.0
 <softwarelist name="a2600" description="Atari 2600 ROM hacks">
 
 	<software name="etfixed">
-		<description>E.T. The Extra-Terrestrial (fixed version)</description>
+		<description>E.T. The Extra-Terrestrial (fixed version 2)</description>
+		<year>2018</year>
+		<publisher>froggeret</publisher>
+		<info name="release" value="20181125" />
+		<part name="cart" interface="a2600_cart">
+			<feature name="slot" value="a26_f8" />
+			<dataarea name="rom" size="8192">
+				<rom name="et (completely fixed v2).bin" size="8192" crc="ecea04c5" sha1="360dddf783320633889a321e196e4502ee8b37bd" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="etfixedv1" cloneof="etfixed">
+		<description>E.T. The Extra-Terrestrial (fixed version 1)</description>
 		<year>2013</year>
 		<publisher>David Richardson</publisher>
 		<info name="release" value="20130216" /> <!-- Last-Modified on web server: 2013-02-16T12:26:31Z -->
 		<part name="cart" interface="a2600_cart">
 			<feature name="slot" value="a26_f8" />
 			<dataarea name="rom" size="8192">
-				<rom name="et (final fixed).bin" size="8192" crc="aaf57d97" sha1="3f122db7521c53bae58b2fc7bc4b48f46d83fdd0" />
+				<rom name="et (final fixed v1).bin" size="8192" crc="aaf57d97" sha1="3f122db7521c53bae58b2fc7bc4b48f46d83fdd0" />
 			</dataarea>
 		</part>
 	</software>
