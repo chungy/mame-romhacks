@@ -52,15 +52,6 @@ Check out other remastered Game Boy Mega Man games made by fans!
 
 CHANGELOG
 ---------
-v1.0b (2024-12-22)
-- fixed: Bright Stopper made Wily Capsule visible after closing pause menu
-- fixed: Satellite Cannon and Hunter bosses blinking iframes
-- fixed: wrong palette in a Ring Man intro frame
-- fixed: wrong palette in Wily spaceship during escape cutscene in some circumstances
-- fixed: dialog box palette in Weapon Get demo with some weapons
-- fixed: wrong OBJ palettes after Ballade explosion in specific circumstances
-- fixed: original game debug menu
-
 v1.0 (2024-12-17)
 - first version
 
@@ -71,7 +62,7 @@ CREDITS
 kensuyjin33 - graphics
 marc_max - reverse engineering & hacking
 
-thanks to Genares, StahlbolzenSC2, amaturehd & NooblarGaming for their deep betatesting!
+thanks to Genares, StahlbolzenSC2 & amaturehd for their deep betatesting!
 thanks to the GB Colorization team for their help and advice!
 
 
