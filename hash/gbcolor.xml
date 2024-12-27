@@ -291,7 +291,7 @@ Game Boy games. -->
 	</software>
 
 	<software name="sml2dx">
-		<description>Super Mario Land 2 DX</description>
+		<description>Super Mario Land 2 DX (version 1.8.1)</description>
 		<year>2018</year>
 		<publisher>toruzz</publisher>
 		<info name="release" value="20180719" />
@@ -306,7 +306,7 @@ Game Boy games. -->
 	</software>
 
 	<software name="sml2dxj" cloneof="sml2dx">
-		<description>Super Mario Land 2 DX (Japan)</description>
+		<description>Super Mario Land 2 DX (version 1.8.1, Japan)</description>
 		<year>2018</year>
 		<publisher>toruzz</publisher>
 		<info name="release" value="20180719" />
@@ -317,6 +317,57 @@ Game Boy games. -->
 				<rom name="sml2dxj.u1" size="1048576" crc="c8781a77" sha1="8898a9434222012d5ef72f999c75febac84f1d4f" />
 			</dataarea>
 			<dataarea name="nvram" size="0x2000" />
+		</part>
+	</software>
+
+	<!-- Downloaded from Internet Archive. Authenticity is unknown.
+		 Was paired with a Japanese ROM, must be at least 1.7. I'll start there... -->
+	<software name="sml2dxv17" cloneof="sml2dx">
+		<description>Super Mario Land 2 DX (version 1.7)</description>
+		<year>2018</year>
+		<publisher>toruzz</publisher>
+		<info name="release" value="20180506" />
+		<info name="version" value="1.7" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="sml2dx 1.7.u1" size="1048576" crc="d72ef69f" sha1="c1e31e0c7c678881073fb7920987050f2c1cd0f7" status="baddump" />
+			</dataarea>
+			<dataarea name="nvram" size="0x2000" />
+		</part>
+	</software>
+
+	<!-- paired with above entry -->
+	<software name="sml2dxjv17" cloneof="sml2dx">
+		<description>Super Mario Land 2 DX (version 1.7, Japan)</description>
+		<year>2018</year>
+		<publisher>toruzz</publisher>
+		<info name="release" value="20180506" />
+		<info name="version" value="1.7" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="sml2dxj 1.7.u1" size="1048576" crc="2c559551" sha1="6653aa4a7319b2820d1cd7dacb6d818c26b704cc" status="baddump" />
+			</dataarea>
+			<dataarea name="nvram" size="0x2000" />
+		</part>
+	</software>
+
+	<!-- Downloaded from Internet Archive. Authenticity is unknown.
+		 Completely unknown version, calling it 1.0 for now... -->
+	<software name="sml2dxv10" cloneof="sml2dx">
+		<description>Super Mario Land 2 DX (version 1.0)</description>
+		<year>2017</year>
+		<publisher>toruzz</publisher>
+		<info name="release" value="20171225" />
+		<info name="version" value="1.0" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="sml2dx 1.0.u1" size="1048576" crc="b8a45fe6" sha1="2840e4b3c14e3ea51f55bce41439f5a393b81e8f" status="baddump" />
+			</dataarea>
+			<!-- 32KiB? Is this a corrupt dump? -->
+			<dataarea name="nvram" size="0x8000" />
 		</part>
 	</software>
 
