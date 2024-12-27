@@ -11,6 +11,21 @@ Game Boy games. -->
 
 	<software name="mmw4dx" supported="partial">
 		<!-- Layering problems in MAME 0.272 -->
+		<description>Mega Man World 4 DX (version 1.0b)</description>
+		<year>2024</year>
+		<publisher>kensuyjin33 &amp; marc_max</publisher>
+		<info name="release" value="20241222" />
+		<info name="version" value="1.0b" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="mmw4dx_v1_0b.bin" size="1048576" crc="6aa2348e" sha1="0e81ab09fa804bdd0815d4f599b82d47c69a8dc3" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mmw4dxv10" cloneof="mmw4dx" supported="partial">
+		<!-- Layering problems in MAME 0.272 -->
 		<description>Mega Man World 4 DX (version 1.0)</description>
 		<year>2024</year>
 		<publisher>kensuyjin33 &amp; marc_max</publisher>
