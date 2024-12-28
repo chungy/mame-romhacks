@@ -237,4 +237,16 @@ license:CC0-1.0
 		</part>
 	</software>
 
+	<software name="supersonic">
+		<description>Super Sonic &amp; Hyper Sonic in Sonic 1 (version 1.2.1.1)</description>
+		<year>2020</year>
+		<publisher>Clownacy</publisher>
+		<info name="release" value="20201019" />
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="1048576">
+				<rom name="supersonic.bin" size="1048576" crc="1e9b3766" sha1="c69006c74a8b3b3df9b209ca105f0becba73733b" />
+			</dataarea>
+		</part>
+	</software>
+
 </softwarelist>
