@@ -6,6 +6,18 @@ license:CC0-1.0
 
 <softwarelist name="megadriv" description="Sega Mega Drive/Genesis ROM hacks">
 
+	<software name="s1knuckles">
+		<description>Knuckles the Echidna in Sonic the Hedgehog</description>
+		<year>2005</year>
+		<publisher>Stealth</publisher>
+		<info name="release" value="20050912" />
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="655232">
+				<rom name="s1k.bin" size="655232" crc="57a6ddb3" sha1="8bc0672f95b1dd0eb16ae0a56483bccdb99c197c" />
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="s1tails">
 		<description>Tails in Sonic the Hedgehog (version 2.1.1)</description>
 		<year>2008</year>
