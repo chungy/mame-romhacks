@@ -39,6 +39,66 @@ Game Boy games. -->
 		</part>
 	</software>
 
+	<software name="mmw5dx" supported="partial">
+		<!-- Layering problems in MAME 0.272 -->
+		<description>Mega Man World 5 DX (version 1.5.2)</description>
+		<year>2023</year>
+		<publisher>kensuyjin33 &amp; marc_max</publisher>
+		<info name="release" value="20231123" />
+		<info name="version" value="1.5.2" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="mmw5dx_v1_5_2.bin" size="1048576" crc="f8e5f2c6" sha1="092aae2d501eeaa6751f2d054a2c0f4bc5384f86" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mmw5dxv10" cloneof="mmw5dx" supported="partial">
+		<!-- Layering problems in MAME 0.272 -->
+		<description>Mega Man World 5 DX (version 1.0)</description>
+		<year>2022</year>
+		<publisher>kensuyjin33 &amp; marc_max</publisher>
+		<info name="release" value="20221224" />
+		<info name="version" value="1.0" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="mmw5dx_v1_0.bin" size="1048576" crc="84306317" sha1="ab232610b51d6b2251b1255e0d2e240433c9ea65" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mmw5dxv15" cloneof="mmw5dx" supported="partial">
+		<!-- Layering problems in MAME 0.272 -->
+		<description>Mega Man World 5 DX (version 1.5)</description>
+		<year>2023</year>
+		<publisher>kensuyjin33 &amp; marc_max</publisher>
+		<info name="release" value="20230402" />
+		<info name="version" value="1.5" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="mmw5dx_v1_5.bin" size="1048576" crc="ccf31bc4" sha1="459aabc28b645d29a985f1ea05ef93b446b97db0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mmw5dx151" cloneof="mmw5dx" supported="partial">
+		<!-- Layering problems in MAME 0.272 -->
+		<description>Mega Man World 5 DX (version 1.5.1)</description>
+		<year>2023</year>
+		<publisher>kensuyjin33 &amp; marc_max</publisher>
+		<info name="release" value="20230407" />
+		<info name="version" value="1.5.1" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_mbc5" />
+			<dataarea name="rom" size="1048576">
+				<rom name="mmw5dx_v1_5_1.bin" size="1048576" crc="2421cc31" sha1="d9a43fb52d8dfc621ce1d380b838b2c266817341" />
+			</dataarea>
+		</part>
+	</software>
+
 	<!-- Bad colors in MAME 0.272 -->
 	<software name="metroid2dx" supported="partial">
 		<description>Metroid II DX (version 2.0)</description>
