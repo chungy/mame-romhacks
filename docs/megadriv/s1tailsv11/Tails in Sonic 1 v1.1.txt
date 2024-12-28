@@ -1,0 +1,45 @@
+ Tails in Sonic 1 v1.1
+-----------------------
+
+by drx
+06.12.2005
+18.12.2005
+
+Visit www.hacking-cult.org for updates (let's hope there won't be any...).
+
+Thanks to Hivebrain for his awesome disassembly of S1 (mine was a bit less accurate and Hive's has a ton of commented stuff)
+
+
+ Updates
+---------
+
+ v1.1
+======
+
+ + added Tails' tails in all animations
+ + added Tails' swimming, tired and tired after swimming animations (ported from s&k, so don't bitch about them plz)
+ + fixed that annoying bug that blocked you after flying
+ + fixed some annoying bugs
+ = I decided not to fix graphical "bugs", because I suck at art. I need someone who is better in this than me 
+
+
+ What's this?
+--------------
+
+This is a hack of Sonic 1, featuring Tails instead of Sonic. Tails can fly, spindash, etc, unlike Sonic.
+I replaced all graphics, texts etc. There's no Sonic in this game :)
+The only places where I left "Sonic The Hedgehog" were the title screen and ending sequence, because that's the name of a game =)
+
+
+ Source code
+-------------
+
+Yeah, there are two versions of this hack. One comes with source, one doesn't. The source is uncommented (sorry).
+If there will be need for a commented version of source code, I might make one.
+
+
+-------------
+
+Have fun!
+And make more fucking sweet hacks like this one =)
+

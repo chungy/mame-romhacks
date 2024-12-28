@@ -6,6 +6,98 @@ license:CC0-1.0
 
 <softwarelist name="megadriv" description="Sega Mega Drive/Genesis ROM hacks">
 
+	<software name="s1tails">
+		<description>Tails in Sonic the Hedgehog (version 2.1.1)</description>
+		<year>2008</year>
+		<publisher>Puto</publisher>
+		<info name="release" value="20081010" />
+		<info name="version" value="2.1.1" />
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="513270">
+				<rom name="s1tails.bin" size="513270" crc="f8294d70" sha1="69ae8a8a3831b762b5e1f7a0ef49a9489f4c4d4e" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="s1tailsv21" cloneof="s1tails">
+		<description>Tails in Sonic the Hedgehog (version 2.1)</description>
+		<year>2008</year>
+		<publisher>Puto</publisher>
+		<info name="release" value="20081009" />
+		<info name="version" value="2.1" />
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="513246">
+				<rom name="s1tails 2.1.bin" size="513246" crc="8d8c7a69" sha1="c8fbb1d687e0ac919b55a52953f8c543c992323f" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="s1tailsv20" cloneof="s1tails">
+		<description>Tails in Sonic the Hedgehog (version 2.0)</description>
+		<year>2007</year>
+		<publisher>Puto</publisher>
+		<info name="release" value="20071231" />
+		<info name="version" value="2.0" />
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="512660">
+				<rom name="s1tails 2.0.bin" size="512660" crc="8b466bc3" sha1="15637c0b4500e2aa62e97591b6c077587c96bb81" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="s1tailsv11b3" cloneof="s1tails">
+		<description>Tails in Sonic the Hedgehog (version 1.1 bugfix 3)</description>
+		<year>2007</year>
+		<publisher>Puto</publisher>
+		<info name="release" value="20070803" />
+		<info name="version" value="1.1b3" />
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="810496">
+				<rom name="s1tails 1.1b3.bin" size="810496" crc="a55027f0" sha1="9e9934e795cb7b02e794e810b3819f6c795adb5c" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="s1tailsv11b2" cloneof="s1tails">
+		<description>Tails in Sonic the Hedgehog (version 1.1 bugfix 2)</description>
+		<year>2007</year>
+		<publisher>Puto</publisher>
+		<info name="release" value="20070630" />
+		<info name="version" value="1.1b2" />
+		<info name="alt_title" value="Hacking Contest 2007 Edition" />
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="810496">
+				<rom name="s1tails 1.1b2.bin" size="810496" crc="0fb81b0d" sha1="b708e8e7509c637ecfc5e00ba3cf1480299d2737" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="s1tailsv11b1" cloneof="s1tails">
+		<description>Tails in Sonic the Hedgehog (version 1.1 bugfix 1)</description>
+		<year>2007</year>
+		<publisher>Puto</publisher>
+		<info name="release" value="20070608" />
+		<info name="version" value="1.1b1" />
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="725910">
+				<rom name="s1tails 1.1b1.bin" size="725910" crc="667d8873" sha1="9b0fcc030887125f543357e9027d22f0eeef8392" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="s1tailsv11" cloneof="s1tails">
+		<description>Tails in Sonic the Hedgehog (version 1.1)</description>
+		<year>2005</year>
+		<publisher>drx</publisher>
+		<info name="release" value="20051222" />
+		<info name="version" value="1.1b1" />
+		<part name="cart" interface="megadriv_cart">
+			<dataarea name="rom" width="16" endianness="big" size="725910">
+				<rom name="s1tails 1.1.bin" size="588342" crc="00af1b08" sha1="3ba74df572f444ac703a223235b4e843bf653ad7" />
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="s3c">
 		<description>Sonic 3 Complete (2013-08-10)</description>
 		<year>2013</year>
