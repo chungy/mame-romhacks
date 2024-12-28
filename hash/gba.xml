@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<!--
+license:CC0-1.0
+-->
+
+<softwarelist name="gba" description="Nintendo Game Boy Advance ROM hacks">
+
+	<software name="dkongcrest">
+		<description>Donkey Kong Country Palette Restoration (version 1.1)</description>
+		<year>2018</year>
+		<publisher>marc_max</publisher>
+		<info name="release" value="20180703" />
+		<info name="version" value="1.1" />
+		<part name="cart" interface="gba_cart">
+			<feature name="slot" value="gba_eeprom_4k" />
+			<dataarea name="rom" size="8388608">
+				<rom name="dkc_gba_restoration_v1_1.u1" size="8388608" crc="c05c1406" sha1="005b5571e169c45a0649fdb2cc52729f9d6b4116" />
+			</dataarea>
+		</part>
+	</software>
+
+</softwarelist>
