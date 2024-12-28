@@ -9,6 +9,20 @@ Game Boy games. -->
 
 <softwarelist name="gbcolor" description="Nintendo Game Boy Color ROM hacks">
 
+	<software name="kjbibledx">
+		<description>King James Bible DX</description>
+		<year>2022</year>
+		<publisher>kkzero</publisher>
+		<info name="release" value="20220401" />
+		<info name="version" value="1.0" />
+		<part name="cart" interface="gameboy_cart">
+			<feature name="slot" value="rom_wisdom" />
+			<dataarea name="rom" size="1048576">
+				<rom name="king james bible dx.bin" size="1048576" crc="9feb4a5e" sha1="f72a058cab52f475fc14f85827e50ab3bfaec2d2" />
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="mmw3dx">
 		<description>Mega Man World 3 DX (version 1.2b)</description>
 		<year>2024</year>
