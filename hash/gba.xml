@@ -6,7 +6,7 @@ license:CC0-1.0
 
 <softwarelist name="gba" description="Nintendo Game Boy Advance ROM hacks">
 
-	<software name="dkongcrest">
+	<software name="dkongc">
 		<description>Donkey Kong Country Palette Restoration (version 1.1)</description>
 		<year>2018</year>
 		<publisher>marc_max</publisher>
