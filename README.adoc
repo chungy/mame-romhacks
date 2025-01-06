@@ -22,8 +22,7 @@ a +hash+ subdirectory (from this repository), and a +roms+
 subdirectory mimicking the regular MAME software list ROMs.
 
 You can also combine these with launch parameters.  For example, to
-launch Sonic 3 Complete: `mame -hashpath ~/.mame/romhacks/hash
--rompath ~/.mame/romhacks/roms genesis s3c`
+launch Sonic 3 Complete: `mame -hashpath ~/.mame/romhacks/hash -rompath ~/.mame/romhacks/roms genesis s3c`
 
 For convenience sake, +mamerh.func+ is an example bash function that
 you can source into your environment (eg, in +~/.bashrc+) to provide a
