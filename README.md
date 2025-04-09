@@ -14,6 +14,8 @@ any other sources.
 
 ## Usage
 
+[**Download the latest archive.**](/zip/trunk/mame-romhacks-trunk.zip)
+
 Software list definitions (the *.xml files in hash) are exclusionary
 to same-named definition files later in the hashpath.  While you could
 permanently override them, it is better to launch MAME with custom
