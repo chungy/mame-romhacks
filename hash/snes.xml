@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<!--
+license:CC0-1.0
+-->
+
+<softwarelist name="snes" description="Super Nintendo Entertainment System ROM hacks">
+
+	<software name="sdw">
+		<description>Super Demo World</description>
+		<year>2001</year>
+		<publisher>FuSoYa</publisher>
+		<info name="release" value="20010910" />
+		<info name="version" value="1.0" />
+		<part name="cart" interface="snes_cart">
+			<feature name="slot" value="lorom" />
+			<dataarea name="rom" size="2097152">
+				<rom name="sdw.u1" size="2097152" crc="d13989af" sha1="d2c361f6bb5a4ce5aa7e8d6f69e4b293d15dcd31" offset="0x000000" />
+			</dataarea>
+			<dataarea name="nvram" size="2048" />
+		</part>
+	</software>
+
+</softwarelist>
