@@ -21,4 +21,21 @@ license:CC0-1.0
 		</part>
 	</software>
 
+	<!-- Version 1.0 was released first, but I have been unable to
+	     locate a copy. -->
+	<software name="sdwtlc">
+		<description>Super Demo World: The Legend Continues (version 1.1)</description>
+		<year>2003</year>
+		<publisher>FuSoYa</publisher>
+		<info name="release" value="20031031" />
+		<info name="version" value="1.1" />
+		<part name="cart" interface="snes_cart">
+			<feature name="slot" value="hirom" />
+			<dataarea name="rom" size="6291456">
+				<rom name="sdwtlc.u1" size="6291456" crc="fa0c7fa8" sha1="29383a0755616627a30564d944fcacb294797037" offset="0x000000" />
+			</dataarea>
+			<dataarea name="nvram" size="2048" />
+		</part>
+	</software>
+
 </softwarelist>
