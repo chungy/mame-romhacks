@@ -63,3 +63,15 @@ them while using these custom files.
 As for copyright, the original game developer/publisher maintains
 copyright on all the games these hacks are built upon.  No files will
 be officially provided by this project.
+
+## Canonical repository URL
+
+This repository is hosted in the [Fossil](https://fossil-scm.org/)
+version control system, and hosted on Chisel at
+[https://chiselapp.com/user/chungy/repository/mame-romhacks](https://chiselapp.com/user/chungy/repository/mame-romhacks).
+If you are viewing this on a GitHub mirror, some links in this README
+will not work and you need to clone/download the repository through
+GitHub to get the same files.
+
+Report issues or make suggestions on the Fossil repository itself,
+pull requests on GitHub will be ignored.
