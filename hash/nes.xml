@@ -6,6 +6,105 @@ license:CC0-1.0
 
 <softwarelist name="nes" description="Nintendo Entertainment System ROM hacks">
 
+	<software name="smbd">
+		<description>Super Mario Bros. Definitive Edition (version 1.3.1)</description>
+		<year>2025</year>
+		<publisher>Simplistic6502 &amp; web2000</publisher>
+		<info name="release" value="20250228" />
+		<info name="version" value="1.3.1" />
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="txrom" />
+			<feature name="pcb" value="NES-TLROM" />
+			<feature name="mirroring" value="vertical" />
+			<dataarea name="prg" size="65536">
+				<rom name="super mario bros definitive prg" size="65536" crc="09d68943" sha1="f52e89467fd96d2d999d5778ed29ec43bdb6e27a" />
+			</dataarea>
+			<dataarea name="chr" size="16384">
+				<rom name="super mario bros definitive chr" size="16384" crc="63a14d2a" sha1="e7c846326382d0dc744005967335e4c74c779aa8" />
+			</dataarea>
+			<dataarea name="vram" size="8192" />
+			<dataarea name="bwram" size="8192" />
+		</part>
+	</software>
+
+	<software name="smbdv13" cloneof="smbd">
+		<description>Super Mario Bros. Definitive Edition (version 1.3)</description>
+		<year>2024</year>
+		<publisher>Simplistic6502 &amp; web2000</publisher>
+		<info name="release" value="20241231" />
+		<info name="version" value="1.3" />
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="txrom" />
+			<feature name="pcb" value="NES-TLROM" />
+			<feature name="mirroring" value="vertical" />
+			<dataarea name="prg" size="65536">
+				<rom name="super mario bros definitive 1.3 prg" size="65536" crc="c24395d9" sha1="02ebed50c5ef542b63713bd2541c49a2987c058e" />
+			</dataarea>
+			<dataarea name="chr" size="16384">
+				<rom name="super mario bros definitive chr" size="16384" crc="63a14d2a" sha1="e7c846326382d0dc744005967335e4c74c779aa8" />
+			</dataarea>
+			<dataarea name="vram" size="8192" />
+			<dataarea name="bwram" size="8192" />
+		</part>
+	</software>
+
+	<software name="smbdv121" cloneof="smbd">
+		<description>Super Mario Bros. Definitive Edition (version 1.2.1)</description>
+		<year>2024</year>
+		<publisher>Simplistic6502 &amp; web2000</publisher>
+		<info name="release" value="20240726" />
+		<info name="version" value="1.2.1" />
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="txrom" />
+			<feature name="pcb" value="NES-TLROM" />
+			<feature name="mirroring" value="vertical" />
+			<dataarea name="prg" size="65536">
+				<rom name="super mario bros definitive 1.2.1 prg" size="65536" crc="75b8ee38" sha1="929e8d324516a5f37437090e7bc9a5d843c5ba7a" />
+			</dataarea>
+			<dataarea name="chr" size="16384">
+				<rom name="super mario bros definitive 1.2.1 chr" size="16384" crc="ff75609e" sha1="49e33c0ad2118d7ab05f8a223d6c95db241c4e30" />
+			</dataarea>
+			<dataarea name="vram" size="8192" />
+			<dataarea name="bwram" size="8192" />
+		</part>
+	</software>
+
+	<software name="smbdv12" cloneof="smbd">
+		<description>Super Mario Bros. Definitive Edition (version 1.2)</description>
+		<year>2024</year>
+		<publisher>Simplistic6502 &amp; web2000</publisher>
+		<info name="release" value="20240505" />
+		<info name="version" value="1.2" />
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="vrc3" />
+			<feature name="pcb" value="KONAMI-VRC-3" />
+			<feature name="mirroring" value="vertical" />
+			<dataarea name="prg" size="65536">
+				<rom name="super mario bros definitive 1.2 prg" size="65536" crc="6447d139" sha1="a828a0e98cbfc6e65de6182ff8130053d0bc825e" />
+			</dataarea>
+			<dataarea name="vram" size="8192" />
+			<dataarea name="bwram" size="8192" />
+		</part>
+	</software>
+
+	<software name="smbdv11" cloneof="smbd">
+		<description>Super Mario Bros. Definitive Edition (version 1.1)</description>
+		<year>2024</year>
+		<publisher>Simplistic6502 &amp; web2000</publisher>
+		<info name="release" value="20240315" />
+		<info name="version" value="1.1" />
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="vrc3" />
+			<feature name="pcb" value="KONAMI-VRC-3" />
+			<feature name="mirroring" value="vertical" />
+			<dataarea name="prg" size="65536">
+				<rom name="super mario bros definitive 1.1 prg" size="65536" crc="f7a4cd0a" sha1="e4e4871185c0b5e36e282b401dcece7b847c3296" />
+			</dataarea>
+			<dataarea name="vram" size="8192" />
+			<dataarea name="bwram" size="8192" />
+		</part>
+	</software>
+
 	<software name="smbsp">
 		<description>Super Mario Bros. Special: 35th Anniversary Edition (version 1.3)</description>
 		<year>2021</year>
