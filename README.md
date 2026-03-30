@@ -67,8 +67,7 @@ be officially provided by this project.
 ## Canonical repository URL
 
 This repository is hosted in the [Fossil](https://fossil-scm.org/)
-version control system, and hosted on Chisel at
-[https://chiselapp.com/user/chungy/repository/mame-romhacks](https://chiselapp.com/user/chungy/repository/mame-romhacks).
+version control system at <https://fossil.chungy.name/mame-romhacks>.
 If you are viewing this on a GitHub mirror, some links in this README
 will not work and you need to clone/download the repository through
 GitHub to get the same files.
